@@ -141,13 +141,12 @@ const RandomImageApp = () => {
                     </div>
                 )}
             </div>
-
             {countdown !== null && (
-                <div className="text-6xl font-bold mb-4">{countdown}</div>
+                <div className="text-4xl font-bold">{countdown}</div>
             )}
             <button
                 onClick={startCountdownAndShowImages}
-                className="mt-6 px-6 py-2 bg-orange-400 text-white font-semibold rounded-md shadow-md hover:bg-orange-500 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2"
+                className="mt-3 px-6 py-2 bg-orange-400 text-white font-semibold rounded-md shadow-md hover:bg-orange-500 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2"
             >
                 たおす！
             </button>
