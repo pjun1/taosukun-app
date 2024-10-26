@@ -121,9 +121,6 @@ const RandomImageApp = () => {
                 </div>
             )}
 
-            {countdown !== null && (
-                <div className="text-6xl font-bold mb-4">{countdown}</div>
-            )}
             <div className="flex flex-col items-center space-y-4">
                 {currentImages[0] && (
                     <div className="transition-opacity duration-500">
@@ -145,6 +142,9 @@ const RandomImageApp = () => {
                 )}
             </div>
 
+            {countdown !== null && (
+                <div className="text-6xl font-bold mb-4">{countdown}</div>
+            )}
             <button
                 onClick={startCountdownAndShowImages}
                 className="mt-6 px-6 py-2 bg-orange-400 text-white font-semibold rounded-md shadow-md hover:bg-orange-500 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2"
