@@ -90,7 +90,7 @@ const RandomImageApp = () => {
 
     return (
         <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
-            <div className="relative mb-4">
+            <div className="relative mb-6 mt-3">
                 <button
                     onClick={() => setIsDropdownOpen(!isDropdownOpen)}
                     className="px-4 py-2 bg-orange-400 text-white rounded-md shadow-md flex items-center justify-between w-48"
@@ -144,12 +144,14 @@ const RandomImageApp = () => {
             {countdown !== null && (
                 <div className="text-4xl font-bold">{countdown}</div>
             )}
-            <button
-                onClick={startCountdownAndShowImages}
-                className="mt-3 px-6 py-2 bg-orange-400 text-white font-semibold rounded-md shadow-md hover:bg-orange-500 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2"
-            >
-                たおす！
-            </button>
+            <div className="pb-4">
+                <button
+                    onClick={startCountdownAndShowImages}
+                    className="mt-3 px-6 py-2 bg-orange-400 text-white font-semibold rounded-md shadow-md hover:bg-orange-500 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2"
+                >
+                    たおす！
+                </button>
+            </div>
         </div>
     );
 };
