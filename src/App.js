@@ -15,7 +15,7 @@ const images = {
         A: importAll(require.context('./images/時空潜行のマーチ/me', false, /\.(png|jpe?g|svg)$/)),
         B: importAll(require.context('./images/時空潜行のマーチ/stage', false, /\.(png|jpe?g|svg)$/)),
         countdown: 5, 
-        memo:"あなたは表示されたロールが自分だと思って動いてね。真心のやつはいつも通りでいいよ！（分けるのめんどくかったごめんなさい）"
+        memo:"あなたは表示されたロールが自分だと思って動いてね。"
     },
     "次元断絶のマーチ": {
         A: importAll(require.context('./images/次元断絶のマーチ/me', false, /\.(png|jpe?g|svg)$/)),
@@ -72,7 +72,7 @@ const RandomImageApp = () => {
         setCurrentImages([null, null]);
         setCountdown(null);
         setInitialCountdown(images[selectedCategory].countdown);
-        setMemo(images[selectedCategory].memo || ""); // カテゴリに応じたメモを設定
+        setMemo(images[selectedCategory].memo || ""); 
     }, [selectedCategory]);
 
     const showRandomImages = () => {
@@ -90,7 +90,6 @@ const RandomImageApp = () => {
 
     return (
         <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
-            {/* カテゴリのプルダウンメニュー */}
             <div className="relative mb-4">
                 <button
                     onClick={() => setIsDropdownOpen(!isDropdownOpen)}
@@ -116,14 +115,12 @@ const RandomImageApp = () => {
                 )}
             </div>
 
-            {/* メモ表示 */}
             {memo && (
                 <div className="text-sm  mb-4  p-2 rounded-md ">
                     {memo}
                 </div>
             )}
 
-            {/* カウントダウンと画像の表示 */}
             {countdown !== null && (
                 <div className="text-6xl font-bold mb-4">{countdown}</div>
             )}
@@ -148,7 +145,6 @@ const RandomImageApp = () => {
                 )}
             </div>
 
-            {/* ランダム画像表示ボタン */}
             <button
                 onClick={startCountdownAndShowImages}
                 className="mt-6 px-6 py-2 bg-orange-400 text-white font-semibold rounded-md shadow-md hover:bg-orange-500 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2"
