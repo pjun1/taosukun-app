@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/taosukun-app/static/css/main.38e976ce.css",
+    "main.js": "/taosukun-app/static/js/main.809e01d8.js",
+    "static/js/453.984fae54.chunk.js": "/taosukun-app/static/js/453.984fae54.chunk.js",
+    "static/media/7.png": "/taosukun-app/static/media/7.bc04b0cf1c8044a3d9c7.png",
+    "static/media/8.png": "/taosukun-app/static/media/8.b878ac97bf839b41b7fa.png",
+    "static/media/2.png": "/taosukun-app/static/media/2.08b1a4e182903de438ec.png",
+    "index.html": "/taosukun-app/index.html",
+    "main.38e976ce.css.map": "/taosukun-app/static/css/main.38e976ce.css.map",
+    "main.809e01d8.js.map": "/taosukun-app/static/js/main.809e01d8.js.map",
+    "453.984fae54.chunk.js.map": "/taosukun-app/static/js/453.984fae54.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.38e976ce.css",
+    "static/js/main.809e01d8.js"
+  ]
+}
