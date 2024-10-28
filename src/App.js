@@ -17,6 +17,12 @@ const images = {
         countdown: 5, 
         memo:"あなたは表示されたロールが自分だと思って動いてね。"
     },
+    "時空潜行のマーチ2": {
+        A: importAll(require.context('./images/時空潜行のマーチ2/me', false, /\.(png|jpe?g|svg)$/)),
+        B: importAll(require.context('./images/時空潜行のマーチ2/stage', false, /\.(png|jpe?g|svg)$/)),
+        countdown: 5, 
+        memo:""
+    },
     "次元断絶のマーチ": {
         A: importAll(require.context('./images/次元断絶のマーチ/me', false, /\.(png|jpe?g|svg)$/)),
         B: importAll(require.context('./images/次元断絶のマーチ/stage', false, /\.(png|jpe?g|svg)$/)),
