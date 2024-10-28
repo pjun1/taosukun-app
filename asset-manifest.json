@@ -1,13 +1,17 @@
 {
   "files": {
     "main.css": "/taosukun-app/static/css/main.286240cf.css",
-    "main.js": "/taosukun-app/static/js/main.000d25d1.js",
+    "main.js": "/taosukun-app/static/js/main.767d165c.js",
     "static/js/453.ff67c710.chunk.js": "/taosukun-app/static/js/453.ff67c710.chunk.js",
     "static/media/1.png": "/taosukun-app/static/media/1.7c721d705ed39a1ca262.png",
     "static/media/2.png": "/taosukun-app/static/media/2.749abaa42a43227028fc.png",
     "static/media/3.png": "/taosukun-app/static/media/3.e4851744b297a791dea6.png",
     "static/media/4.png": "/taosukun-app/static/media/4.1114f1f99eaa377f8eb0.png",
-    "static/media/集団罰.png": "/taosukun-app/static/media/集団罰.c7706c3db3522a93b0c2.png",
+    "static/media/13.png": "/taosukun-app/static/media/13.9d3408069d75f6057127.png",
+    "static/media/12.png": "/taosukun-app/static/media/12.e19a02b96b55a971815c.png",
+    "static/media/11.png": "/taosukun-app/static/media/11.21496d4094504caf9432.png",
+    "static/media/10.png": "/taosukun-app/static/media/10.4dad6e5abfaf35668f42.png",
+    "static/media/集団罰.png": "/taosukun-app/static/media/集団罰.8c419d2bffd689877f05.png",
     "static/media/加重罰.png": "/taosukun-app/static/media/加重罰.9373a498140ad9e381fa.png",
     "static/media/名誉罰.png": "/taosukun-app/static/media/名誉罰.9546591eec9453247b0d.png",
     "static/media/8.png": "/taosukun-app/static/media/8.4f861873cc83383a2ac5.png",
@@ -38,11 +42,11 @@
     "static/media/st.png": "/taosukun-app/static/media/st.7a2f50465d972a4fc9de.png",
     "index.html": "/taosukun-app/index.html",
     "main.286240cf.css.map": "/taosukun-app/static/css/main.286240cf.css.map",
-    "main.000d25d1.js.map": "/taosukun-app/static/js/main.000d25d1.js.map",
+    "main.767d165c.js.map": "/taosukun-app/static/js/main.767d165c.js.map",
     "453.ff67c710.chunk.js.map": "/taosukun-app/static/js/453.ff67c710.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.286240cf.css",
-    "static/js/main.000d25d1.js"
+    "static/js/main.767d165c.js"
   ]
 }
